@@ -43,13 +43,16 @@
 # else:
 #     print('дробной части нет')
 
-import random
-random.randint(1, 100)
+# import random
+# random.randint(1, 100)
 
-from random import randint
-randint(1,100)
+# from random import randint
+# randint(1,100)
 
-from random import randint as RI # RI новое сокращенное название 
-RI(1,100)
+# from random import randint as RI # RI новое сокращенное название 
+# RI(1,100)
+my_list = [10,20,15,45,69,78,36]
+for i in range(len(my_list)): #обращаемся к значениям а не к индексам
+    print(my_list[i])
 
 
